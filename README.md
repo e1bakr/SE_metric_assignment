@@ -6,6 +6,8 @@ and d3 modules are imported directly
 
 #developer access token is in environment variable "GIT-USER"
 
+#video demo included
+
 
 -------------HOW TO RUN-------------
 
