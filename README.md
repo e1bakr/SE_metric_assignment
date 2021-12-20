@@ -10,5 +10,7 @@ and d3 modules are imported directly
 -------------HOW TO RUN-------------
 
 RUN server.py FILE
+
 GO TO LOCALHOST:8000
+
 MAY TAKE A BIT
