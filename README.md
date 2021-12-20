@@ -8,6 +8,7 @@ and d3 modules are imported directly
 
 
 -------------HOW TO RUN-------------
+
 MAKE SURE PYTHON and PyGithub ARE INSTALLED
 
 RUN server.py FILE
