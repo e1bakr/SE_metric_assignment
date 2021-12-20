@@ -1,0 +1,59 @@
+body {
+  background-color: beige;
+}
+#add-user {
+  width: 300px;
+  float: left;
+}
+#user-list {
+  width: 100px;
+  float: left;
+}
+#head-container {
+  width: 100vw;
+  height: 120px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#data-table {
+  margin-left: 20px;
+  width: 800px;
+  height: 500px;
+  border: 5px solid black;
+}
+
+.bar {
+  fill: darkgoldenrod;
+}
+.bar:hover {
+  opacity: 66%;
+}
+
+.labels {
+  font-size: medium;
+}
+
+.chart {
+  box-shadow: 0 2px 8px black;
+  padding: 1rem;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#title-label {
+  color: darkred;
+  border: 2px solid;
+  width: 300px;
+  text-align: center;
+  padding: 3px;
+  background-color: burlywood;
+}
+
+#chart-change {
+  margin-left: 20px;
+}
+
+#un2 {
+  width: 200px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <Title>Git Interrogate</Title>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale.v3.min.js" defer></script>
+    <script src="https://d3js.org/d3-axis.v1.min.js" defer></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div id="head-container">
+        <h1 id="title-label">Github Interrogation</h1>
+        <div id="add-user">
+            <input type="text" placeholder="Enter a Github Username" id="un1">
+            <button type="Button" onclick="getUsername()">Add User</button>
+        </div>
+        <div id="remove-user">
+            <input type="text" placeholder="Enter a Username to Remove" id="un2">
+            <button type="Button" onclick="removeUser()">Remove User</button>
+        </div>
+        <div id="user-list">
+            <div class="user-mark">
+            </div>
+        </div>
+    </div>
+    <div id="chart">
+        <svg>
+        </svg>
+        <h4 id="main-label"></h4>
+    </div>
+    <div id="chart-change">
+        <button class="chart-b" onclick="chooseGraphR()">Repositories</button>
+        <button class="chart-b" onclick="chooseGraphF()">Followers</button>
+        <button class="chart-b" onclick="chooseGraphFG()">Following</button>
+        <button class="chart-b" onclick="chooseGraphW()">Total Watchers</button>
+
+    </div>
+</body>
